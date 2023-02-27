@@ -1,0 +1,880 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+
+body {
+    background-color: #f5f5f5 !important;
+}
+
+.bottom .fa-chevron-up {
+    background-color: #0078ff;
+    color: #fff;
+    text-decoration: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    transition: all 1s;
+    z-index: 999;
+}
+
+#home {
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}
+
+#home .layer {
+    background-color: rgba(0, 0, 0, 0.625);
+    height: 100vh;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.5s;
+}
+
+
+.nav1 {
+    position: relative;
+}
+
+.nav1::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    margin-left: 0px;
+    width: 50%;
+    bottom: 0;
+    left: 10px;
+    height: 2px;
+}
+
+header p {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+header .home-content p::after {
+    content: "";
+    animation: typing 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "|"
+    }
+
+    1% {
+        content: "W|"
+    }
+
+    2% {
+        content: "We|"
+    }
+
+    3% {
+        content: "Web|"
+    }
+
+    4% {
+        content: "Web |"
+    }
+
+    5% {
+        content: "Web D|"
+    }
+
+    6% {
+        content: "Web De|"
+    }
+
+    7% {
+        content: "Web Des|"
+    }
+
+    8% {
+        content: "Web Desi|"
+    }
+
+    9% {
+        content: "Web Desig|"
+    }
+
+    10% {
+        content: "Web Design|"
+    }
+
+    11% {
+        content: "Web Designe|"
+    }
+
+    12% {
+        content: "Web Designer|"
+    }
+
+    13% {
+        content: "Web Designer|"
+    }
+
+    14% {
+        content: "Web Designer|"
+    }
+
+    15% {
+        content: "Web Designe|"
+    }
+
+    16% {
+        content: "Web Design|"
+    }
+
+    17% {
+        content: "Web Desig|"
+    }
+
+    18% {
+        content: "Web Desi|"
+    }
+
+    19% {
+        content: "Web Des|"
+    }
+
+    20% {
+        content: "Web De|"
+    }
+
+    21% {
+        content: "Web D|"
+    }
+
+    22% {
+        content: "Web |"
+    }
+
+    23% {
+        content: "Web|"
+    }
+
+    24% {
+        content: "We|"
+    }
+
+    25% {
+        content: "W|"
+    }
+
+    26% {
+        content: "|"
+    }
+
+    27% {
+        content: "F|"
+    }
+
+    28% {
+        content: "Fr|"
+    }
+
+    29% {
+        content: "Fro|"
+    }
+
+    30% {
+        content: "Fron|"
+    }
+
+    31% {
+        content: "Front|"
+    }
+
+    32% {
+        content: "Fronte|"
+    }
+
+    33% {
+        content: "Fronten|"
+    }
+
+    34% {
+        content: "Frontend|"
+    }
+
+    34% {
+        content: "Frontend |"
+    }
+
+    35% {
+        content: "Frontend D|"
+    }
+
+    36% {
+        content: "Frontend De|"
+    }
+
+    37% {
+        content: "Frontend Dev|"
+    }
+
+    38% {
+        content: "Frontend Deve|"
+    }
+
+    39% {
+        content: "Frontend Devel|"
+    }
+
+    40% {
+        content: "Frontend Develo|"
+    }
+
+    41% {
+        content: "Frontend Develop|"
+    }
+
+    42% {
+        content: "Frontend Develope|"
+    }
+
+    43% {
+        content: "Frontend Developer|"
+    }
+
+    44% {
+        content: "Frontend Developer|"
+    }
+
+    45% {
+        content: "Frontend Developer|"
+    }
+
+    46% {
+        content: "Frontend Developer|"
+    }
+
+    47% {
+        content: "Frontend Developer|"
+    }
+
+    48% {
+        content: "Frontend Developer|"
+    }
+
+    49% {
+        content: "Frontend Developer|"
+    }
+
+    50% {
+        content: "Frontend Developer|"
+    }
+
+    51% {
+        content: "Frontend Developer|"
+    }
+
+    52% {
+        content: "Frontend Developer|"
+    }
+
+    53% {
+        content: "Frontend Developer|"
+    }
+
+    54% {
+        content: "Frontend Develope"
+    }
+
+    55% {
+        content: "Frontend Develop"
+    }
+
+    56% {
+        content: "Frontend Develo|"
+    }
+
+    57% {
+        content: "Frontend Devel|"
+    }
+
+    58% {
+        content: "Frontend Deve"
+    }
+
+    59% {
+        content: "Frontend Dev"
+    }
+
+    60% {
+        content: "Frontend De|"
+    }
+
+    61% {
+        content: "Frontend D|"
+    }
+
+    62% {
+        content: "Frontend |"
+    }
+
+    63% {
+        content: "Frontend|"
+    }
+
+    64% {
+        content: "Fronten|"
+    }
+
+    65% {
+        content: "Fronte|"
+    }
+
+    66% {
+        content: "Front||"
+    }
+
+    67% {
+        content: "Fron|"
+    }
+
+    68% {
+        content: "Fro|"
+    }
+
+    69% {
+        content: "Fr|"
+    }
+
+    70% {
+        content: "F|"
+    }
+
+    71% {
+        content: "|"
+    }
+
+    72% {
+        content: "C|"
+    }
+
+    73% {
+        content: "CE|"
+    }
+
+    74% {
+        content: "CEO|"
+    }
+
+    75% {
+        content: "CEO |"
+    }
+
+    76% {
+        content: "CEO D|"
+    }
+
+    77% {
+        content: "CEO De|"
+    }
+
+    78% {
+        content: "CEO Dev|"
+    }
+
+    79% {
+        content: "CEO Deve|"
+    }
+
+    80% {
+        content: "CEO Devel|"
+    }
+
+    81% {
+        content: "CEO Develo|"
+    }
+
+    82% {
+        content: "CEO Develop|"
+    }
+
+    83% {
+        content: "CEO Develope|"
+    }
+
+    84% {
+        content: "CEO Developer|"
+    }
+
+    85% {
+        content: "CEO Developer|"
+    }
+
+    86% {
+        content: "CEO Developer|"
+    }
+
+    87% {
+        content: "CEO Developer|"
+    }
+
+    88% {
+        content: "CEO Develope|"
+    }
+
+    89% {
+        content: "CEO Develop|"
+    }
+
+    90% {
+        content: "CEO Develo|"
+    }
+
+    91% {
+        content: "CEO Devel|"
+    }
+
+    92% {
+        content: "CEO Deve|"
+    }
+
+    93% {
+        content: "CEO Dev|"
+    }
+
+    94% {
+        content: "CEO De|"
+    }
+
+    95% {
+        content: "CEO D|"
+    }
+
+    96% {
+        content: "CEO "
+    }
+
+    97% {
+        content: "CEO"
+    }
+
+    98% {
+        content: "CE|"
+    }
+
+    99% {
+        content: "C|"
+    }
+
+    100% {
+        content: "|"
+    }
+
+}
+
+.two h2 {
+    position: relative;
+}
+
+.two h2::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+.title-left {
+    margin-bottom: 3rem;
+}
+
+#about {
+    padding-top: 4rem;
+}
+
+.about-img {
+    margin-bottom: 2rem;
+}
+
+.all1 {
+    padding: 4rem 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.about-title {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.progress {
+    margin: 0.5rem 0 1.2rem 0;
+}
+
+#about .one p {
+    color: #4e4e4e;
+}
+
+.line {
+    height: 4px;
+    background-color: #0078ff;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+#services h2,
+#work h2,
+#blog h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#services .inner {
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+
+.icon {
+    height: 110px;
+    width: 110px;
+    font-size: 3rem;
+    padding: 1rem;
+    border: 10px solid #0078ff;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 1s;
+}
+
+.inner:hover .icon {
+    background-color: #0078ff;
+    color: #fff;
+    border-color: #CDE1F8;
+}
+
+.con {
+    background-image: url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 8rem 0rem;
+}
+
+.con .layer {
+    background-color: rgba(18, 78, 255, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.con .one {
+    position: relative;
+}
+
+.con i {
+    height: 80px;
+    width: 80px;
+    font-size: 2rem;
+    border: 10px solid #CDE1F8;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 0.75rem;
+}
+
+.con h4 {
+    font-size: 2rem;
+}
+
+#services,
+#work,
+#blog,
+footer {
+    padding-top: 4rem;
+}
+
+#work img {
+    width: 100%;
+}
+
+#work .inner {
+    margin-bottom: 3rem;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    overflow: hidden;
+}
+
+#work .work-content {
+    padding: 2rem .5rem 1rem 1rem;
+}
+
+#work .work-content span {
+    color: #0078ff;
+}
+
+#work .work-content p {
+    color: #4e4e4e;
+}
+
+#work .inner a img {
+    transition: all 1s;
+}
+
+#work .inner a:hover img {
+    transform: scale(1.1);
+}
+
+#work .plus-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    float: right;
+    color: #0078ff;
+    border: #0078ff 1px solid;
+    border-radius: 50%;
+}
+
+.carousel {
+    text-align: center;
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 8rem 0rem;
+}
+
+.carousel .layer {
+    background-color: rgba(18, 78, 255, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel img {
+    border-radius: 50%;
+}
+
+.carousel h5 {
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+.carousel i {
+    font-size: 2rem;
+    color: #0078ff;
+    background-color: #fff;
+    width: 52px;
+    height: 52px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    line-height: 1.6;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 18px;
+    height: 7px !important;
+    margin: 5px 5px !important;
+    background: #cde1f8 !important;
+    border: 0px solid #cde1f8 !important;
+}
+
+.carousel-indicators .active {
+    background-color: #1B1B1B !important;
+    width: 25px !important;
+}
+
+#blog .inner {
+    margin-bottom: 3rem;
+    border-radius: 4px;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+
+#blog .inner h6 {
+    font-size: 0.7rem;
+    display: inline-block;
+    color: #fff;
+    padding: 5px 15px;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+
+.card-content {
+    padding: 1.25rem;
+}
+
+.card-box {
+    text-align: center;
+    top: -12px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+#blog .inner h5 a{
+    color: #000;
+    font-weight: 600;
+    margin: 0.7rem 0;
+    transition: all 1s;
+
+}
+#blog .inner h5 a:hover {
+    color:#0078ff;
+}
+#blog .inner p {
+    color: #4e4e4e;
+}
+
+#blog .card-end {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, .03);
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+#blog .author img {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    border-radius: 50%;
+}
+
+#blog .author-pic span {
+    transition: all 1s;
+}
+
+#blog .author-pic:hover span {
+    color: #0078ff;
+}
+
+footer {
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 8rem 0rem;
+
+}
+
+footer .layer {
+    background-color: rgba(18, 78, 255, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+footer .container>.row {
+    padding: 3rem;
+
+}
+
+.f-line {
+    height: 4px;
+    background-color: #0078ff;
+    width: 100px;
+    margin-bottom: 2rem;
+}
+
+footer input,
+textarea {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    outline: none;
+    transition: all .15s;
+}
+
+footer input:focus,
+textarea:focus {
+    border-color: #CDE1F8;
+    box-shadow: #CDE1F8 1px 1px 10px;
+}
+
+
+footer .btn {
+    margin: 1rem;
+    padding: 1rem;
+    transition: all 1s;
+}
+
+footer .btn:hover {
+    background-color: #005ac1;
+    box-shadow: 0 0 0 3px #cde1f8
+}
+
+footer p i{
+    color: #0078ff;
+    margin-right: 1rem;
+}
+
+footer .social {
+    padding: 1.5rem 0;
+}
+
+footer .social a {
+    color: #000;
+    text-decoration: none;
+    border: #ffffff 5px solid;
+
+}
+
+footer .social a i {
+    font-size: 2rem;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all .5s ease;
+
+}
+
+footer .social a:hover i {
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 3px #cde1f8
+
+}
